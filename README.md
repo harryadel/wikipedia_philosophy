@@ -2,6 +2,8 @@
 
 A simple python script to reach the [Philosophy](https://en.wikipedia.org/wiki/Philosophy) article.
 
+Thankfully this task was easy to come about, the main problem I ran into was grabbing the first paragraph to access the anchor tag within but luckily I found a snippet that does exactly that!
+
 To run it simply type:
 
 ```
