@@ -37,7 +37,7 @@ netifaces==0.10.4
 onboard==1.4.1
 parsel==1.5.1
 pexpect==4.2.1
-Pillow==5.1.0
+Pillow==6.2.0
 psutil==5.4.2
 pyasn1==0.4.5
 pyasn1-modules==0.2.5
