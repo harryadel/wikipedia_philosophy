@@ -19,7 +19,7 @@ cssselect==1.0.3
 cupshelpers==1.0
 defer==1.0.6
 fake-useragent==0.1.11
-httplib2==0.9.2
+httplib2==0.18.0
 hyperlink==19.0.0
 idna==2.6
 incremental==17.5.0
