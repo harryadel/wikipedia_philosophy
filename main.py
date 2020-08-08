@@ -1,4 +1,5 @@
 import sys
+import time
 import requests
 from bs4 import BeautifulSoup
 
@@ -16,6 +17,7 @@ def find_philosophy(url):
             exit()
 
         url = 'http://en.wikipedia.org' + link
+        time.sleep(0.5)
         find_philosophy(url)
     else:
         print("EUREKA! - You've reached Philosophy")
@@ -23,10 +25,13 @@ def find_philosophy(url):
 
 
 random_url = 'https://en.wikipedia.org/wiki/Special:Random'
+user_input = input("Enter a Wikipedia URL: ")
 
-if len(sys.argv)==1:
-    url = random_url
+if user_input:
+    url = user_input
 else:
-    url = sys.argv[1]
+    url = random_url
+    print("No input found")
+    print("Applying random URL")
 
 find_philosophy(url)    
